@@ -1,0 +1,2752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Proiecte\Electronica\picothermal\picothermal-hardware\picothermal-hardware.kicad_sch</source>
+    <date>06/12/2022 22:43:43</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <textvar name="DrawnBy">Cezar Chirila</textvar>
+    <textvar name="RevNum">1.0</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>picothermal</title>
+        <company>www.cezarchirila.com</company>
+        <rev>1.0</rev>
+        <date>2022-11-13</date>
+        <source>picothermal-hardware.kicad_sch</source>
+        <comment number="1" value="USB-C Thermal Camera based on RP2040 and Flir Lepton"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value="Cezar Chirila"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c790eb25-a0ff-4208-b39f-0009c2fb373d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>077ede45-931f-41cb-9ee6-908394937b49</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>18pF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">C0G</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="C0G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5de7953-d401-49b1-968c-9c1e6d27158a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>18pF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">C0G</field>
+        <field name="Voltage Rating">50V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="50V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="C0G"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a113320-5611-4824-a03b-aa17d6d2723b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2466246b-86a7-4043-be54-b26a6be46ef0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3979a4d3-43ce-4697-b258-9b110b82f60e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad2e1b42-fb41-42eb-9fc8-96c5aa355dbd</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27688c54-6662-4bac-bb67-ba07c61ce8e6</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d23ead15-fe92-48fd-a352-8d31831bb381</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89530519-b2ba-4816-bae8-0770ac9563db</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c50cc407-a7fc-448d-be70-15e3022e10ae</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14b13526-fa2b-49da-9673-bf28e0206035</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>091fb7fc-6910-4255-89c2-8aca95c0ba29</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b78566e6-8571-43d1-bef5-701234f7ff24</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>4.7uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bca7cb6-bbaf-4a3b-b526-f6610447ec5d</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>4.7uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22c934c7-dc7d-4403-a500-9d11c1622d36</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>4.7uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b50896e-4c4a-4b99-9fe5-e786ba001264</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86df41e5-2d7b-46ee-847f-04e5265f8c6a</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dbf66ad-c239-421c-bd5c-59422879ca28</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4cbc973-96d7-45c5-b292-f081c113a8c8</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5124a503-a857-4b3a-be14-59a14c69030b</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68bf61af-b502-4288-963c-c390ee87a5b3</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebdbd5c1-ec2f-40f9-8c4a-246de1852ced</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>affd700a-4c9f-4ee7-8156-068f49d3733a</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>259b8417-75b7-40cd-a913-031f6d933d5e</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>22uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="6.3V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c2cfe8c-b7c0-4b58-8ace-ccd35ce2519b</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>22uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="6.3V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d306f710-ad41-4c4f-be55-3084e1cdc32f</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb7c6be5-35c8-40d0-8293-f75c6484d024</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1950af66-8fd5-4b40-9ef9-5951f2e3e258</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb0484b0-be8f-434f-9dc1-e56c893340fb</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e4acda4-c9b5-4c54-b6e0-a89ff7fef6be</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72a87523-5312-45e9-a67b-73444d8e9afb</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <footprint>miscellaneous:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">25V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="25V"/>
+      <property name="Size" value="0402"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19bbc7e6-46ec-461a-9091-784a790a603d</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>4.7uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>223a8332-ed10-477c-8c7c-577cedfdb085</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>4.7uF</value>
+      <footprint>miscellaneous:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Size">0603</field>
+        <field name="Type">X7R</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Voltage Rating" value="10V"/>
+      <property name="Size" value="0603"/>
+      <property name="Type" value="X7R"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bed95eb8-22eb-4414-bc8f-06becf753f25</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>ESD9C3.3ST5G</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="VRWM">3V3</field>
+      </fields>
+      <libsource lib="miscellaneous" part="ESD9C3.3ST5G" description="Diode TVS 3V3"/>
+      <property name="VRWM" value="3V3"/>
+      <property name="Part Number" value="ESD9C3.3ST5G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0c5bbfd-ef79-4aca-bee7-02390139b6f6</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>ESD9C3.3ST5G</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="VRWM">3V3</field>
+      </fields>
+      <libsource lib="miscellaneous" part="ESD9C3.3ST5G" description="Diode TVS 3V3"/>
+      <property name="VRWM" value="3V3"/>
+      <property name="Part Number" value="ESD9C3.3ST5G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e133d6b6-a2c8-403b-9039-ee9c4ec1b96f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <fields>
+        <field name="Manufacturer">Wurth</field>
+        <field name="Part Number">150060YS55040</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Part Number" value="150060YS55040"/>
+      <property name="Manufacturer" value="Wurth"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f83847c1-1858-4b04-bf04-96397b0e5fde</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>ESD9C3.3ST5G</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="VRWM">3V3</field>
+      </fields>
+      <libsource lib="miscellaneous" part="ESD9C3.3ST5G" description="Diode TVS 3V3"/>
+      <property name="VRWM" value="3V3"/>
+      <property name="Part Number" value="ESD9C3.3ST5G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c517285-e27f-4df7-9a91-3f4de85c45bf</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>ESD9C3.3ST5G</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="VRWM">3V3</field>
+      </fields>
+      <libsource lib="miscellaneous" part="ESD9C3.3ST5G" description="Diode TVS 3V3"/>
+      <property name="VRWM" value="3V3"/>
+      <property name="Part Number" value="ESD9C3.3ST5G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5817a017-d3fe-4d0d-bc71-ba6303434250</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>ESD9C3.3ST5G</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="VRWM">3V3</field>
+      </fields>
+      <libsource lib="miscellaneous" part="ESD9C3.3ST5G" description="Diode TVS 3V3"/>
+      <property name="VRWM" value="3V3"/>
+      <property name="Part Number" value="ESD9C3.3ST5G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf7dbd37-0b84-4ad7-8cb6-070846b94b87</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>ESD9C3.3ST5G</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="VRWM">3V3</field>
+      </fields>
+      <libsource lib="miscellaneous" part="ESD9C3.3ST5G" description="Diode TVS 3V3"/>
+      <property name="VRWM" value="3V3"/>
+      <property name="Part Number" value="ESD9C3.3ST5G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ef9bc53-51d8-4ef0-8bd5-dd008321028c</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>ESD9C3.3ST5G</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="VRWM">3V3</field>
+      </fields>
+      <libsource lib="miscellaneous" part="ESD9C3.3ST5G" description="Diode TVS 3V3"/>
+      <property name="VRWM" value="3V3"/>
+      <property name="Part Number" value="ESD9C3.3ST5G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceb71a0d-a33e-4d20-b0b3-77935b3ffa0a</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>ESD9C3.3ST5G</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">onsemi</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="VRWM">3V3</field>
+      </fields>
+      <libsource lib="miscellaneous" part="ESD9C3.3ST5G" description="Diode TVS 3V3"/>
+      <property name="VRWM" value="3V3"/>
+      <property name="Part Number" value="ESD9C3.3ST5G"/>
+      <property name="Manufacturer" value="onsemi"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bae650ed-2933-4096-af32-e426620c5766</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>DF2S6.2FS,L3M</value>
+      <footprint>Diode_SMD:D_SOD-923</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=22218&amp;prodName=DF2S6.2FS</datasheet>
+      <fields>
+        <field name="Manufacturer">Toshiba</field>
+        <field name="Part Number">DF2S6.2FS,L3M</field>
+        <field name="VRWM">5V</field>
+      </fields>
+      <libsource lib="miscellaneous" part="DF2S6.2FS,L3M" description="Diode TVS 5V"/>
+      <property name="VRWM" value="5V"/>
+      <property name="Manufacturer" value="Toshiba"/>
+      <property name="Part Number" value="DF2S6.2FS,L3M"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9f9277a-3bab-4f27-b604-f21e181458bf</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>MPZ1608S101ATAH0</value>
+      <footprint>PintryParts-Footprints:L_0603_1608Metric</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz1608_en.pdf?ref_disty=digikey</datasheet>
+      <fields>
+        <field name="Impedance">100Ω @ 100MHz</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Part Number">MPZ1608S101ATAH0</field>
+      </fields>
+      <libsource lib="PintryParts-Symbols" part="MPZ1608S101ATAH0" description="Ferrite bead, small symbol"/>
+      <property name="Impedance" value="100Ω @ 100MHz"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Part Number" value="MPZ1608S101ATAH0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d0cba84-0eed-4b2a-89bf-2f727673236e</tstamps>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a218d92e-1cf4-4188-87a6-4dde7fca3e08</tstamps>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7498657d-d18f-4321-ba01-f546f8a64f6f</tstamps>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cb58fdd9-39d8-4588-adda-e916b22c08e3</tstamps>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82f1a3d8-2eaa-47be-b287-ecfbdc6b5be1</tstamps>
+    </comp>
+    <comp ref="FID5">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc8c960a-378d-4bfb-a3e2-662a2c1755e5</tstamps>
+    </comp>
+    <comp ref="FID6">
+      <value>Fiducial</value>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c7dab75-d290-4a4d-8518-a02f202dd945</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>TC2030-CTX</value>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de0d237b-5c09-4f20-8b59-7d18e1803cd7</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>USB-C Plug</value>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Manufacturer">GCT</field>
+        <field name="Part Number">USB4155-03-C</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle" description="USB Full-Featured Type-C Receptacle connector"/>
+      <property name="Part Number" value="USB4155-03-C"/>
+      <property name="Manufacturer" value="GCT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3be5bf9-80c8-49cd-a803-ccd02b1937c8</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1uH</value>
+      <fields>
+        <field name="Manufacturer">TDK</field>
+        <field name="Part Number">VLS201610CX-1R0M-1</field>
+        <field name="Spec">1.95A, 79mR</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part Number" value="VLS201610CX-1R0M-1"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Spec" value="1.95A, 79mR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c091039-7195-485a-a0a4-4dd30a617e5a</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>1uH</value>
+      <fields>
+        <field name="Manufacturer">TDK</field>
+        <field name="Part Number">VLS201610CX-1R0M-1</field>
+        <field name="Spec">1.95A, 79mR</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Part Number" value="VLS201610CX-1R0M-1"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Spec" value="1.95A, 79mR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66ad682c-59bd-44aa-9f29-25d4e778c2a4</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="fit_field">dnf</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value="dnf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>833a7d61-870c-437b-a6d5-d287ea525296</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91902356-b63f-454a-b9dd-094fcf600cdc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91ac3e76-1ea1-448f-94cc-429dbb9f3458</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>419b7493-f0ec-4ba7-8004-9980b9218a33</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5902288a-8dc9-459c-85ce-b2ced8b3819d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>27R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4adb5e3-88ef-4aff-8841-9c123084fbca</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>27R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfd10d93-0ceb-4f51-9dbd-d9c0ec7d9ac5</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de412752-d3df-4c2f-82f5-177919c24a94</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d32f26f-7e24-453d-acbf-00bc3a43eea7</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82f8483a-dfdc-4bcc-ad0a-7bf2cda07b30</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4174edc-3f5f-40c8-b550-ab1af64bcb74</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>7K5</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48a88350-6a87-498d-b755-374c70e7499c</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2K4</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa6ff4e7-eef3-4b2d-bf66-cae1d16fd4b6</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>7K5</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>101e1324-3fbd-40b3-bc1c-1407133cb2e1</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>3K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f93c6b6-e1d8-4e57-9faf-0159447217f9</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>27R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96877aee-bcfc-497b-9d2e-8510c8ca57f5</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>27R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdf5bb53-56a9-4548-91e1-be8aabb26a60</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>2K4</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbf6cfc0-1197-42f3-b5e7-b436428fc4fd</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfa5ca50-fae2-41b5-8d37-490142f81f98</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd983175-1e82-48ed-ba45-1740a41fef38</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>2K4</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b6f8ab2-9685-4fb7-b134-5e71ac238cbe</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>0R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9f10e12-5be9-45b9-b2e2-43a1112f38e3</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>0R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79dd68b8-dbc6-4135-88ff-16d804d27868</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>27R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2b1ae4e-0b28-4b50-b06e-6422da9b1d72</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>27R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4408bf99-5b8b-4f4f-8a21-f89034df17f7</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>27R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d43b506e-04ff-4a42-9e48-680c4036cdce</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>453K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89f989a9-b5db-4815-bf33-0800059807d1</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f13eacf5-de46-480c-91d5-597ffe5ac696</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fc02647-9148-4611-a9d7-30ebddf134a1</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e805315c-49e9-473d-ac4a-12c100de63b4</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b0667cd-1124-4198-8d28-e8725e0b09a6</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49137a6c-159d-412c-bd53-d9800114d907</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>100K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d021b165-d695-4534-b6c4-da36f4320bb1</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>5.1K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+        <field name="fit_field">dnf</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value="dnf"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e83e0ff3-ae9d-4093-86b9-0bbe62aa666f</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>27R</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6586bd4a-7612-4554-aa16-a8825df91b8d</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>5.1K</value>
+      <footprint>miscellaneous:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="Size">0402</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Size" value="0402"/>
+      <property name="fit_field" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c98efef-a3bd-4e8b-b18f-c87e52f15ef9</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/240/pts815-3050953.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Part Number">PTS815 SJM 250 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Part Number" value="PTS815 SJM 250 SMTR LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b88070d-0df8-406d-a6b3-1e9055ced36c</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Push</value>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/240/pts815-3050953.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">C&amp;K</field>
+        <field name="Part Number">PTS815 SJM 250 SMTR LFS</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Manufacturer" value="C&amp;K"/>
+      <property name="Part Number" value="PTS815 SJM 250 SMTR LFS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52a1143e-0a7b-4bdb-b04c-3c17035aa74a</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>+1V1</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0934d51a-e499-4636-8ebd-667c080f717c</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>3V3</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d709a43-00ec-4b21-b431-17faf1e9cb64</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>2V8</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b98f2798-740b-4ef6-be3e-9395249ffce7</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>PG_3V0</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15f6808d-8cd3-4c18-86ce-de2d7fad9208</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>PG_3V0</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28135cba-87a1-4390-8351-4732a1a14484</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>3V0</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e3c6e34-4a82-4bf7-be85-bf205f92845f</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>1V2</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c868a791-4d3d-4ef8-beb3-9c479b5ebee1</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>+5V</value>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7de51b14-eaf5-4fee-8c43-c83b77548bd8</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>W25Q16JV</value>
+      <footprint>W25Q16JVUXIQ</footprint>
+      <datasheet>https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&amp;DocNo=DA00-W25Q16JV.1</datasheet>
+      <fields>
+        <field name="Manufacturer">Winbond</field>
+        <field name="Part Number">W25Q16JVUXIQ</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q16JVUXIQ" description="32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="Part Number" value="W25Q16JVUXIQ"/>
+      <property name="Manufacturer" value="Winbond"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9936bd58-5b4d-4104-a290-5881c0883867</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AP7330-W5-7</value>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP7330.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Part Number">AP7330-W5-7</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP7330-W5-7" description="LDO 300mA "/>
+      <property name="Manufacturer" value="Diodes"/>
+      <property name="Part Number" value="AP7330-W5-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ed86058-6235-4846-9376-705c82b7ceb1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AP7330-W5-7</value>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP7330.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Part Number">AP7330-W5-7</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP7330-W5-7" description="LDO 300mA "/>
+      <property name="Manufacturer" value="Diodes"/>
+      <property name="Part Number" value="AP7330-W5-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8fbf04c-2cbd-475d-bb46-aad93f1dc45e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RP2040</value>
+      <footprint>Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm</footprint>
+      <datasheet>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Raspberry</field>
+        <field name="Part Number">RP2040</field>
+      </fields>
+      <libsource lib="" part="RP2040_1" description="A microcontroller by Raspberry Pi"/>
+      <property name="Manufacturer" value="Raspberry"/>
+      <property name="Part Number" value="RP2040"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f216244b-c7d5-4841-9878-222eeaff0016 ce7a0655-3ba9-4256-9abb-8497190e71ff</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TLV62569A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-563</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv62568a.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">TLV62569APDRLR</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TLV62569A" description="High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6"/>
+      <property name="Part Number" value="TLV62569APDRLR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52d86a86-1d48-4f52-8b5d-28b794ff8d44</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>TLV62569A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-563</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv62568a.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Part Number">TLV62569APDRLR</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TLV62569A" description="High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6"/>
+      <property name="Part Number" value="TLV62569APDRLR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e92546c3-b8c9-44e6-ab4c-58b885e33472</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>Flir LEPTON</value>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/276/1/1050281001_OTHER_SOCKETS-152362.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Part Number">105028-1001</field>
+      </fields>
+      <libsource lib="Sensor_Optical" part="Flir_LEPTON" description="LWIR camera 8 to 14um 80x60 pixel"/>
+      <property name="Part Number" value="105028-1001"/>
+      <property name="Manufacturer" value="Molex"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4089aa6a-5d3d-41f3-a3cc-e6572467ae8b</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>ECS-2520MV-250-CL</value>
+      <footprint>Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm</footprint>
+      <datasheet>https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf</datasheet>
+      <libsource lib="Oscillator" part="ECS-2520MV-xxx-xx" description="HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cda6748-a364-4542-a43e-506a0fa536cc</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>12MHz </value>
+      <footprint>Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</footprint>
+      <datasheet>https://ecsxtal.com/store/pdf/ECX-2236.pdf</datasheet>
+      <fields>
+        <field name="Frequency">12MHz </field>
+        <field name="Manufacturer">ECS</field>
+        <field name="Part Number">ECS-120-12-36-AGN-TR3</field>
+      </fields>
+      <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
+      <property name="Part Number" value="ECS-120-12-36-AGN-TR3"/>
+      <property name="Manufacturer" value="ECS"/>
+      <property name="Frequency" value="12MHz "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="picothermal-hardware.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec6fed36-2a45-4913-b4e2-b17ae0112acc</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="RP2040_1">
+      <description>A microcontroller by Raspberry Pi</description>
+      <docs>https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*7x7mm?P0.4mm?EP3.2x3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040_1</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="passive"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="input"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="passive"/>
+        <pin num="22" name="IOVDD" type="passive"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWCLK" type="output"/>
+        <pin num="25" name="SWD" type="bidirectional"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="passive"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29_ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="passive"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_IN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="passive"/>
+        <pin num="50" name="DVDD" type="passive"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="output"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS" type="bidirectional"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle">
+      <description>USB Full-Featured Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J?</field>
+        <field name="Value">USB_C_Receptacle</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A2" name="TX1+" type="bidirectional"/>
+        <pin num="A3" name="TX1-" type="bidirectional"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A10" name="RX2-" type="bidirectional"/>
+        <pin num="A11" name="RX2+" type="bidirectional"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B2" name="TX2+" type="bidirectional"/>
+        <pin num="B3" name="TX2-" type="bidirectional"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B10" name="RX1-" type="bidirectional"/>
+        <pin num="B11" name="RX1+" type="bidirectional"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24">
+      <description>Four pin crystal, GND on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q16JVUXIQ">
+      <description>32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&amp;DocNo=DA00-W25Q16JV.1</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q16JVUXIQ</field>
+        <field name="Footprint">W25Q16JVUXIQ</field>
+        <field name="Datasheet">https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&amp;DocNo=DA00-W25Q16JV.1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="ECS-2520MV-xxx-xx">
+      <description>HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD</description>
+      <docs>https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf</docs>
+      <footprints>
+        <fp>Oscillator*SMD*ECS*2520MV*2.5x2.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">ECS-2520MV-xxx-xx</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm</field>
+        <field name="Datasheet">https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Tri-State" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="PintryParts-Symbols" part="MPZ1608S101ATAH0">
+      <description>Ferrite bead, small symbol</description>
+      <docs>https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz1608_en.pdf?ref_disty=digikey</docs>
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB?</field>
+        <field name="Value">MPZ1608S101ATAH0</field>
+        <field name="Footprint">PintryParts-Footprints:L_0603_1608Metric</field>
+        <field name="Datasheet">https://product.tdk.com/info/en/catalog/datasheets/beads_commercial_power_mpz1608_en.pdf?ref_disty=digikey</field>
+        <field name="Impedance">100Ω @ 100MHz</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Part Number">MPZ1608S101ATAH0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP7330-W5-7">
+      <description>LDO 300mA </description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP7330.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP7330-W5-7</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/AP7330.pdf</field>
+        <field name="Manufacturer">Diodes</field>
+        <field name="Part Number">AP7330-W5-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="ADJ" type="passive"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TLV62569A">
+      <description>High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tlv62568a.pdf</docs>
+      <footprints>
+        <fp>SOT*563*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV62569A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-563</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv62568a.pdf</field>
+        <field name="Part Number">TLV62569APDRLR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="SW" type="power_out"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="PG" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Optical" part="Flir_LEPTON">
+      <description>LWIR camera 8 to 14um 80x60 pixel</description>
+      <docs>https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf</docs>
+      <footprints>
+        <fp>*105028*1001*</fp>
+        <fp>*105028*2011*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Flir_LEPTON</field>
+        <field name="Datasheet">https://cdn.sparkfun.com/datasheets/Sensors/Infrared/FLIR_Lepton_Data_Brief.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GPIO3" type="bidirectional"/>
+        <pin num="3" name="GPIO2" type="bidirectional"/>
+        <pin num="4" name="GPIO1" type="bidirectional"/>
+        <pin num="5" name="GPIO0" type="bidirectional"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VDDC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="SPI_MOSI" type="input"/>
+        <pin num="12" name="SPI_MISO" type="output"/>
+        <pin num="13" name="SPI_CLK" type="input"/>
+        <pin num="14" name="SPI_CS_L" type="input"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="VDDIO" type="power_in"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="SCL" type="input"/>
+        <pin num="22" name="SDA" type="bidirectional"/>
+        <pin num="23" name="PWR_DWN_L" type="input"/>
+        <pin num="24" name="RESET_L" type="input"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="MASTER_CLK" type="input"/>
+        <pin num="27" name="GND" type="power_in"/>
+        <pin num="28" name="MIPI_CLK_N" type="output"/>
+        <pin num="29" name="MIPI_CLK_P" type="output"/>
+        <pin num="30" name="GND" type="power_in"/>
+        <pin num="31" name="MIPI_DATA_N" type="output"/>
+        <pin num="32" name="MIPI_DATA_P" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="miscellaneous" part="DF2S6.2FS,L3M">
+      <description>Diode TVS 5V</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=22218&amp;prodName=DF2S6.2FS</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">DF2S6.2FS,L3M</field>
+        <field name="Footprint">Diode_SMD:D_SOD-923</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=22218&amp;prodName=DF2S6.2FS</field>
+        <field name="VRWM">5V</field>
+        <field name="Manufacturer">Toshiba</field>
+        <field name="Part Number">DF2S6.2FS,L3M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="miscellaneous" part="ESD9C3.3ST5G">
+      <description>Diode TVS 3V3</description>
+      <docs>https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">ESD9C3.3ST5G</field>
+        <field name="Footprint">Diode_SMD:D_SOD-923</field>
+        <field name="Datasheet">https://www.mouser.co.uk/datasheet/2/308/ESD9C3_3S_D-1804799.pdf</field>
+        <field name="VRWM">3V3</field>
+        <field name="Part Number">ESD9C3.3ST5G</field>
+        <field name="Manufacturer">onsemi</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Oscillator.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Optical">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Sensor_Optical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:/Users/eexcc15/Documents/KicadCustomLibraries/kicad-symbols/Switch.kicad_sym</uri>
+    </library>
+    <library logical="miscellaneous">
+      <uri>D:/Proiecte/Electronica/cezar-kicad-library/miscellaneous.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V2">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="VDDC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+2V8">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U7" pin="19" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="+3.3V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VOUT" pintype="power_out"/>
+      <node ref="U4" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+    </net>
+    <net code="4" name="+3V0">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U7" pin="16" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="Y1" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="5" name="+5V">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="6" name="/25MHZ_CLK">
+      <node ref="U7" pin="26" pinfunction="MASTER_CLK" pintype="input"/>
+      <node ref="Y1" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="7" name="/CAM_CS">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+      <node ref="U7" pin="14" pinfunction="SPI_CS_L" pintype="input"/>
+    </net>
+    <net code="8" name="/CAM_MISO">
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/CAM_MOSI">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="SPI_MOSI" pintype="input"/>
+    </net>
+    <net code="10" name="/CAM_SCL">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+      <node ref="U7" pin="21" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="11" name="/CAM_SCLK">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="SPI_CLK" pintype="input"/>
+    </net>
+    <net code="12" name="/CAM_SDA">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+      <node ref="U7" pin="22" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/CAM_VSYNC">
+      <node ref="U4" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/GPIO_LED">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U4" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/GPIO_SW">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/QSPI_CLK">
+      <node ref="U1" pin="6" pinfunction="CLK" pintype="input"/>
+      <node ref="U4" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
+    </net>
+    <net code="17" name="/QSPI_SD0">
+      <node ref="U1" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+      <node ref="U4" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/QSPI_SD1">
+      <node ref="U1" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+      <node ref="U4" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/QSPI_SD2">
+      <node ref="U1" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+      <node ref="U4" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/QSPI_SD3">
+      <node ref="U1" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+      <node ref="U4" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/QSPI_SS">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U4" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/RESET">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U4" pin="26" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="23" name="/SWCLK">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U4" pin="24" pinfunction="SWCLK" pintype="output"/>
+    </net>
+    <net code="24" name="/SWD">
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U4" pin="25" pinfunction="SWD" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/USB_N">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="/USB_P">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="/USB_R_N">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/USB_R_P">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/~{CAM_PWRDN}">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+      <node ref="U7" pin="23" pinfunction="PWR_DWN_L" pintype="input"/>
+    </net>
+    <net code="30" name="/~{CAM_RESET}">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+      <node ref="U7" pin="24" pinfunction="RESET_L" pintype="input"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="19" pinfunction="TESTEN" pintype="input"/>
+      <node ref="U4" pin="57" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="25" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="27" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="30" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="20" pinfunction="XIN" pintype="input"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U4" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
+      <node ref="U4" pin="50" pinfunction="DVDD" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U4" pin="22" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U4" pin="33" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U4" pin="42" pinfunction="IOVDD" pintype="passive"/>
+      <node ref="U4" pin="44" pinfunction="VREG_IN" pintype="power_in"/>
+      <node ref="U4" pin="49" pinfunction="IOVDD" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(FB1-Pad2)">
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(J2-PadA5)">
+      <node ref="J2" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(J2-PadB5)">
+      <node ref="J2" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="46" name="Net-(L2-Pad1)">
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="SW" pintype="power_out"/>
+    </net>
+    <net code="47" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="Tri-State" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U4" pin="21" pinfunction="XOUT" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="ADJ" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="ADJ" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="56" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="PG" pintype="open_collector"/>
+    </net>
+    <net code="57" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="SPI_MISO" pintype="output"/>
+    </net>
+    <net code="62" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J2-PadA2)">
+      <node ref="J2" pin="A2" pinfunction="TX1+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J2-PadA3)">
+      <node ref="J2" pin="A3" pinfunction="TX1-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J2-PadA8)">
+      <node ref="J2" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J2-PadA10)">
+      <node ref="J2" pin="A10" pinfunction="RX2-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J2-PadA11)">
+      <node ref="J2" pin="A11" pinfunction="RX2+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J2-PadB2)">
+      <node ref="J2" pin="B2" pinfunction="TX2+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J2-PadB3)">
+      <node ref="J2" pin="B3" pinfunction="TX2-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J2-PadB6)">
+      <node ref="J2" pin="B6" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J2-PadB7)">
+      <node ref="J2" pin="B7" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J2-PadB8)">
+      <node ref="J2" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J2-PadB10)">
+      <node ref="J2" pin="B10" pinfunction="RX1-" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J2-PadB11)">
+      <node ref="J2" pin="B11" pinfunction="RX1+" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U4-Pad6)">
+      <node ref="U4" pin="6" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="GPIO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U4-Pad11)">
+      <node ref="U4" pin="11" pinfunction="GPIO8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U4-Pad17)">
+      <node ref="U4" pin="17" pinfunction="GPIO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U4-Pad18)">
+      <node ref="U4" pin="18" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U4-Pad27)">
+      <node ref="U4" pin="27" pinfunction="GPIO16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U4-Pad28)">
+      <node ref="U4" pin="28" pinfunction="GPIO17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U4-Pad29)">
+      <node ref="U4" pin="29" pinfunction="GPIO18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U4-Pad30)">
+      <node ref="U4" pin="30" pinfunction="GPIO19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U4-Pad31)">
+      <node ref="U4" pin="31" pinfunction="GPIO20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U4-Pad32)">
+      <node ref="U4" pin="32" pinfunction="GPIO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U4-Pad34)">
+      <node ref="U4" pin="34" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U4-Pad35)">
+      <node ref="U4" pin="35" pinfunction="GPIO23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U4-Pad36)">
+      <node ref="U4" pin="36" pinfunction="GPIO24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U4-Pad37)">
+      <node ref="U4" pin="37" pinfunction="GPIO25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U4-Pad38)">
+      <node ref="U4" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U4-Pad39)">
+      <node ref="U4" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U4-Pad40)">
+      <node ref="U4" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U4-Pad41)">
+      <node ref="U4" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U4-Pad43)">
+      <node ref="U4" pin="43" pinfunction="ADC_AVDD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U7-Pad3)">
+      <node ref="U7" pin="3" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U7-Pad4)">
+      <node ref="U7" pin="4" pinfunction="GPIO1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U7-Pad5)">
+      <node ref="U7" pin="5" pinfunction="GPIO0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U7-Pad17)">
+      <node ref="U7" pin="17" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U7-Pad28)">
+      <node ref="U7" pin="28" pinfunction="MIPI_CLK_N" pintype="output+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U7-Pad29)">
+      <node ref="U7" pin="29" pinfunction="MIPI_CLK_P" pintype="output+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U7-Pad31)">
+      <node ref="U7" pin="31" pinfunction="MIPI_DATA_N" pintype="output+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U7-Pad32)">
+      <node ref="U7" pin="32" pinfunction="MIPI_DATA_P" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

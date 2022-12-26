@@ -1,0 +1,9 @@
+(version 1)
+
+(rule HighSpeedGndClearance 
+	(constraint clearance (min 0.6mm))
+	(condition "A.inDiffPair('*') && B.Type =='Zone'"))
+
+(rule EdgeClearance
+	(constraint edge_clearance (min 0.4mm))
+	(condition "A.Type=='Zone'"))
