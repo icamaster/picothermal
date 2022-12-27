@@ -7,3 +7,7 @@
 (rule EdgeClearance
 	(constraint edge_clearance (min 0.4mm))
 	(condition "A.Type=='Zone'"))
+
+(rule SolermaskSliver
+	(constraint clearance (min 0.1mm))
+	(condition "A.Layer=='F.Mask' && B.Layer=='F.Mask'"))
