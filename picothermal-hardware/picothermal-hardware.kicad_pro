@@ -499,7 +499,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "OutputJob/picothermal-hardware-1.0/3DSTEP/picothermal-hardware.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.9)*%
-%TF.CreationDate,2022-12-27T22:30:22+00:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.10)*%
+%TF.CreationDate,2023-01-11T19:08:06+00:00*%
 %TF.ProjectId,picothermal-hardware,7069636f-7468-4657-926d-616c2d686172,1.0*%
 %TF.SameCoordinates,PX459e440PY6cb8080*%
 %TF.FileFunction,Copper,L4,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.9)) date 2022-12-27 22:30:22*
+G04 Created by KiCad (PCBNEW (6.0.10)) date 2023-01-11 19:08:06*
 %MOMM*%
 %LPD*%
 G01*
