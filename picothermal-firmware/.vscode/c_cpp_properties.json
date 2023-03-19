@@ -2,16 +2,13 @@
   "configurations": [
     {
       "name": "Linux",
-      "includePath": [
-        "${workspaceFolder}/**",
-        "${env:PICO_SDK_PATH}/**"
-      ],
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
       "defines": [],
       "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.EXE",
       "cStandard": "gnu17",
       "cppStandard": "gnu++14",
-      "intelliSenseMode": "linux-gcc-arm",
-      "configurationProvider" : "ms-vscode.cmake-tools"
+      "intelliSenseMode": "gcc-arm",
+      "configurationProvider" : "ms-vscode.cmake-tools",
     }
   ],
   "version": 4

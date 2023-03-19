@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Cortex Debug",
+      "name": "Debug",
       "cwd": "${workspaceRoot}",
       "executable": "${command:cmake.launchTargetPath}",
       "request": "launch",
@@ -23,6 +23,31 @@
       "postRestartCommands": [
           "break main",
           "continue"
+      ]
+    },
+    {
+      "name": "Run",
+      "cwd": "${workspaceRoot}",
+      "executable": "${command:cmake.launchTargetPath}",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "jlink",
+      "gdbPath": "arm-none-eabi-gdb",
+      "device": "RP2040_M0_0",
+      "configFiles": [
+        "interface/jlink.cfg",
+        "target/rp2040.cfg"
+        ],
+      "svdFile": "${env:PICO_SDK_PATH}/src/rp2040/hardware_regs/rp2040.svd",
+      "runToEntryPoint": "main",
+      "postLaunchCommands": [
+        "continue",
+        "disconnect"
+      ],
+      // Give restart the same functionality as runToEntryPoint - main
+      "postRestartCommands": [
+        "break main",
+        "continue"
       ]
     }
   ]

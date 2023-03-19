@@ -1,0 +1,9 @@
+BasedOnStyle: Google
+IndentWidth: 4
+ColumnLimit: 180
+AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveMacros:
+    Enabled: true
+    AcrossEmptyLines: true
+    AcrossComments: false
+AllowShortEnumsOnASingleLine: false

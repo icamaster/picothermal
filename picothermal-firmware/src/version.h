@@ -1,0 +1,6 @@
+#ifndef _PICOTHERMAL_VERSION_H_
+#define _PICOTHERMAL_VERSION_H_
+
+#define PICOTHERMAL_VERSION "0.1.0"
+
+#endif

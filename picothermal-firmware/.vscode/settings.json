@@ -18,7 +18,13 @@
     },
     "cmake.buildBeforeRun": true,
     "cmake.generator": "Ninja",
-    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
     "sonarlint.pathToCompileCommands": "${workspaceFolder}/build/compile_commands.json",
-    "cortex-debug.JLinkGDBServerPath": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe"
+    "cortex-debug.JLinkGDBServerPath": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "clang-format.style": "file",
+    "cpplint.lineLength": 180,
+    "cpplint.root": "${workspaceFolder}/src",
+    "C_Cpp.autoAddFileAssociations": false
 }

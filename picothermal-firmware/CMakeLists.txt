@@ -23,6 +23,11 @@ project(picothermal C CXX ASM)
 # Add executable. Default name is the project name, version 0.1
 add_executable(${PROJECT_NAME} src/main.c)
 
+target_sources(${PROJECT_NAME} PUBLIC 
+  src/main.c
+  src/usb_descriptors.c
+)
+
 pico_set_program_name(${PROJECT_NAME} "picothermal")
 pico_set_program_version(${PROJECT_NAME} "0.1")
 
@@ -30,18 +35,19 @@ pico_enable_stdio_uart(${PROJECT_NAME} 0)
 pico_enable_stdio_usb(${PROJECT_NAME} 0)
 pico_enable_stdio_semihosting(${PROJECT_NAME} 1)
 
-# Add the standard library to the build
-target_link_libraries(${PROJECT_NAME}
-  pico_stdlib
-)
-
-# Add DEBUG definition based on build type
-target_compile_definitions(${PROJECT_NAME} PRIVATE "DEBUG=$<IF:$<CONFIG:Debug>,1,0>")
-
 # Add the standard include files to the build
 target_include_directories(${PROJECT_NAME} PRIVATE
   src
 )
+
+# Add the standard library to the build
+target_link_libraries(${PROJECT_NAME}
+  pico_stdlib
+  tinyusb_device
+)
+
+# Add DEBUG definition based on build type
+# target_compile_definitions(${PROJECT_NAME} PRIVATE "DEBUG=$<IF:$<CONFIG:Debug>,1,0>")
 
 # Add any user requested libraries
 target_link_libraries(${PROJECT_NAME}
