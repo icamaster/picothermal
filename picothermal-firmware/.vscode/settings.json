@@ -24,7 +24,7 @@
     "cortex-debug.JLinkGDBServerPath": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe",
     "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
     "clang-format.style": "file",
-    "cpplint.lineLength": 180,
+    "cpplint.lineLength": 0,
     "cpplint.root": "${workspaceFolder}/src",
     "C_Cpp.autoAddFileAssociations": false
 }
