@@ -40,6 +40,10 @@
 enum { ITF_NUM_VIDEO_CONTROL, ITF_NUM_VIDEO_STREAMING, ITF_NUM_TOTAL };
 
 // clang-format off
+#define TUD_VIDEO_GUID_Y8     0x59,0x38,0x20,0x20,0x00,0x00,0x10,0x00,0x80,0x00,0x00,0xaa,0x00,0x38,0x9b,0x71
+#define TUD_VIDEO_GUID_Y16    0x59,0x31,0x36,0x20,0x00,0x00,0x10,0x00,0x80,0x00,0x00,0xaa,0x00,0x38,0x9b,0x71
+#define TUD_VIDEO_GUID_BGR3   0x7d,0xeb,0x36,0xe4,0x4f,0x52,0xce,0x11,0x9f,0x53,0x00,0x20,0xaf,0x0b,0xa7,0x70
+
 #define TUD_VIDEO_CAPTURE_DESC_UNCOMPR_LEN (\
     TUD_VIDEO_DESC_IAD_LEN\
     /* control */\
@@ -61,14 +65,26 @@ enum { ITF_NUM_VIDEO_CONTROL, ITF_NUM_VIDEO_STREAMING, ITF_NUM_TOTAL };
  /* Windows support YUY2 and NV12
   * https://docs.microsoft.com/en-us/windows-hardware/drivers/stream/usb-video-class-driver-overview */
 
+#define TUD_VIDEO_DESC_CS_VS_FMT_Y8(_fmtidx, _numfmtdesc, _frmidx, _asrx, _asry, _interlace, _cp) \
+    TUD_VIDEO_DESC_CS_VS_FMT_UNCOMPR(_fmtidx, _numfmtdesc, TUD_VIDEO_GUID_Y8, 8, _frmidx, _asrx, _asry, _interlace, _cp)
+#define TUD_VIDEO_DESC_CS_VS_FRM_CONT_Y8(_frmidx, _cap, _width, _height, _fps) \
+    TUD_VIDEO_DESC_CS_VS_FRM_UNCOMPR_CONT(_frmidx, _cap, _width, _height, _width * _height * 8, _width * _height * 8 * _fps, _width * _height * 8, (10000000 / _fps), (10000000 / _fps), (10000000 / _fps), (10000000 / _fps))
+
+#define TUD_VIDEO_DESC_CS_VS_FMT_Y16(_fmtidx, _numfmtdesc, _frmidx, _asrx, _asry, _interlace, _cp) \
+    TUD_VIDEO_DESC_CS_VS_FMT_UNCOMPR(_fmtidx, _numfmtdesc, TUD_VIDEO_GUID_Y16, 16, _frmidx, _asrx, _asry, _interlace, _cp)
+#define TUD_VIDEO_DESC_CS_VS_FRM_CONT_Y16(_frmidx, _cap, _width, _height, _fps) \
+    TUD_VIDEO_DESC_CS_VS_FRM_UNCOMPR_CONT(_frmidx, _cap, _width, _height, _width * _height * 16, _width * _height * 16 * _fps, _width * _height * 16, (10000000 / _fps), (10000000 / _fps), (10000000 / _fps), (10000000 / _fps))
+
+#define TUD_VIDEO_DESC_CS_VS_FMT_BGR3(_fmtidx, _numfmtdesc, _frmidx, _asrx, _asry, _interlace, _cp) \
+    TUD_VIDEO_DESC_CS_VS_FMT_UNCOMPR(_fmtidx, _numfmtdesc, TUD_VIDEO_GUID_BGR3, 24, _frmidx, _asrx, _asry, _interlace, _cp)
+#define TUD_VIDEO_DESC_CS_VS_FRM_CONT_BGR3(_frmidx, _cap, _width, _height, _fps) \
+    TUD_VIDEO_DESC_CS_VS_FRM_UNCOMPR_CONT(_frmidx, _cap, _width, _height, _width * _height * 24, _width * _height * 24 * _fps, _width * _height * 24, (10000000 / _fps), (10000000 / _fps), (10000000 / _fps), (10000000 / _fps))
+
 #define TUD_VIDEO_DESC_CS_VS_FMT_YUY2(_fmtidx, _numfmtdesc, _frmidx, _asrx, _asry, _interlace, _cp) \
-    TUD_VIDEO_DESC_CS_VS_FMT_UNCOMPR(_fmtidx, _numfmtdesc, TUD_VIDEO_GUID_YUY2, 16, _frmidx, _asrx, _asry, _interlace, _cp)
-#define TUD_VIDEO_DESC_CS_VS_FMT_NV12(_fmtidx, _numfmtdesc, _frmidx, _asrx, _asry, _interlace, _cp) \
-    TUD_VIDEO_DESC_CS_VS_FMT_UNCOMPR(_fmtidx, _numfmtdesc, TUD_VIDEO_GUID_NV12, 12, _frmidx, _asrx, _asry, _interlace, _cp)
-#define TUD_VIDEO_DESC_CS_VS_FMT_M420(_fmtidx, _numfmtdesc, _frmidx, _asrx, _asry, _interlace, _cp) \
-    TUD_VIDEO_DESC_CS_VS_FMT_UNCOMPR(_fmtidx, _numfmtdesc, TUD_VIDEO_GUID_M420, 12, _frmidx, _asrx, _asry, _interlace, _cp)
-#define TUD_VIDEO_DESC_CS_VS_FMT_I420(_fmtidx, _numfmtdesc, _frmidx, _asrx, _asry, _interlace, _cp) \
-    TUD_VIDEO_DESC_CS_VS_FMT_UNCOMPR(_fmtidx, _numfmtdesc, TUD_VIDEO_GUID_I420, 12, _frmidx, _asrx, _asry, _interlace, _cp)
+    TUD_VIDEO_DESC_CS_VS_FMT_UNCOMPR(_fmtidx, _numfmtdesc, TUD_VIDEO_GUID_YUY2, 24, _frmidx, _asrx, _asry, _interlace, _cp)
+#define TUD_VIDEO_DESC_CS_VS_FRM_CONT_YUY2(_frmidx, _cap, _width, _height, _fps) \
+    TUD_VIDEO_DESC_CS_VS_FRM_UNCOMPR_CONT(_frmidx, _cap, _width, _height, _width * _height * 16, _width * _height * 16 * _fps, _width * _height * 16, (10000000 / _fps), (10000000 / _fps), (10000000 / _fps), (10000000 / _fps))
+
 
 #define TUD_VIDEO_CAPTURE_DESCRIPTOR_UNCOMPR(_stridx, _epin, _width, _height, _fps, _epsize)                       \
     TUD_VIDEO_DESC_IAD(ITF_NUM_VIDEO_CONTROL, /* 2 Interfaces */ 0x02, _stridx), /* Video control 0 */             \
@@ -93,9 +109,8 @@ enum { ITF_NUM_VIDEO_CONTROL, ITF_NUM_VIDEO_STREAMING, ITF_NUM_TOTAL };
     TUD_VIDEO_DESC_CS_VS_FMT_YUY2(                                                                                 \
         /*bFormatIndex*/ 1, /*bNumFrameDescriptors*/ 1, /*bDefaultFrameIndex*/ 1, 0, 0, 0,                         \
         /*bCopyProtect*/ 0), /* Video stream frame format */                                                       \
-    TUD_VIDEO_DESC_CS_VS_FRM_UNCOMPR_CONT(                                                                         \
-        /*bFrameIndex */ 1, 0, _width, _height, _width* _height * 16, _width * _height * 16 * _fps,                \
-        _width * _height * 16, (10000000 / _fps), (10000000 / _fps), (10000000 / _fps) * _fps, (10000000 / _fps)), \
+    TUD_VIDEO_DESC_CS_VS_FRM_CONT_YUY2(                                                                           \
+        /*bFrameIndex */ 1, 0, _width, _height, _fps),                                                             \
     TUD_VIDEO_DESC_CS_VS_COLOR_MATCHING(                                                                           \
         VIDEO_COLOR_PRIMARIES_BT709, VIDEO_COLOR_XFER_CH_BT709, VIDEO_COLOR_COEF_SMPTE170M), /* VS alt 1 */        \
     TUD_VIDEO_DESC_STD_VS(ITF_NUM_VIDEO_STREAMING, 1, 1, _stridx),                           /* EP */              \
