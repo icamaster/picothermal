@@ -5,9 +5,11 @@ Picothermal is a screenless thermal camera based on a Flir Lepton 3.5 sensor tha
 It doesn't need any app as it uses WebUSB (which also means it doesn't support Firefox, unfortunately). 
 
 ![top-assembly](assets/top-assembly.jpg)
+
 *Top assembly*
 
 ![WebUSB app](assets/screenshot-desktop.png)
+
 [*WebUSB app*](#firmware)
 
 # Hardware
