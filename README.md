@@ -1,6 +1,6 @@
 # Introduction
 
-Picothermal is a screenless thermal camera based on a Flir Lepton 3.5 sensor that uses a RP2040 and connects to your PC or phone via USB-C. 
+Picothermal is a WebUSB thermal camera based on a Flir Lepton 3.5 sensor that uses a RP2040 and connects to your PC or phone via USB-C. 
 
 It doesn't need any app as it uses WebUSB (which also means it doesn't support Firefox, unfortunately). 
 
