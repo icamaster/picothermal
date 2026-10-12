@@ -16,6 +16,8 @@ It doesn't need any app as it uses WebUSB (which also means it doesn't support F
 
 The hardware and software is open-source, see the [picothermal-hardware](picothermal-hardware) folder for the Kicad project, manufacturing files and a PDF schematic. 
 
+There are also STLs available for an enclosure in [enclosure](enclosure). There are two variants for the bottom piece depending on the PCB thickness (0.8mm or 1.6mm).
+
 # Firmware
 
 For firmware, please see [picothermal-fw](https://github.com/icamaster/picothermal-fw).
